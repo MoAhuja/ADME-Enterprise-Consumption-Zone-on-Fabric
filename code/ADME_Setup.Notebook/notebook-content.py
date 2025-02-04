@@ -8,9 +8,17 @@
 # META   },
 # META   "dependencies": {
 # META     "lakehouse": {
-# META       "default_lakehouse": "1754e36b-3b11-46b5-9e3e-6d0ff96d2511",
-# META       "default_lakehouse_name": "admelakehouse",
-# META       "default_lakehouse_workspace_id": "e7835792-0470-4896-8a4c-0935e39ffc5c"
+# META       "default_lakehouse": "a650f518-9bb2-450b-95c0-2425a77baaec",
+# META       "default_lakehouse_name": "ADMELakehouse2",
+# META       "default_lakehouse_workspace_id": "c205926d-e1b8-4068-ba76-36c7f9e21a69",
+# META       "known_lakehouses": [
+# META         {
+# META           "id": "1754e36b-3b11-46b5-9e3e-6d0ff96d2511"
+# META         },
+# META         {
+# META           "id": "a650f518-9bb2-450b-95c0-2425a77baaec"
+# META         }
+# META       ]
 # META     }
 # META   }
 # META }
@@ -70,6 +78,9 @@
 
 import pandas as pd
 import json
+
+# Hello World
+
 
 # Correct the JSON string format and load it
 config_json = '''
